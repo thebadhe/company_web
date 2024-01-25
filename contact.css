@@ -1,0 +1,138 @@
+#header-name {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: url("photo/b2.jpg") center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #header-name h1{
+    font-size: 70px;
+  }
+
+   
+/* Map and Contact Details Section Styles */
+#custom-map-section {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    justify-content: space-between;
+    padding: 40px 20px; /* Adjusted padding for better spacing on smaller screens */
+    background-color: #ddd;
+}
+
+.custom-map-container {
+    flex: 0 0 100%; /* Full width on smaller screens */
+    max-width: 100%; /* Full width on smaller screens */
+    height: 450px; /* Adjust the height as needed */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px; /* Added margin for better spacing between map and contact details on smaller screens */
+}
+
+.custom-contact-details {
+    flex: 0 0 100%; /* Full width on smaller screens */
+    padding: 20px;
+    background-color: #0056b3; /* Set background color to blue */
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+    text-align: center; /* Center-align text */
+    border-radius: 20px;
+    margin-bottom: 20px; /* Added margin for better spacing between map and contact details on smaller screens */
+}
+
+.custom-contact-details h2 {
+    color: inherit; /* Inherit color from the parent */
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.custom-contact-details h3 {
+    color: inherit;
+    font-size: 1.7em;
+    margin: 10px;
+}
+
+.custom-contact-details p {
+    color: inherit;
+    font-size: 1.2em;
+}
+
+/* Apply style changes on hover */
+.custom-contact-details:hover {
+    background-color: #fff; /* Change background color to white on hover */
+    color: #000; /* Change text color to black on hover */
+}
+
+/* form */
+#contact {
+    background: url("photo/hand2.jpeg") center/cover no-repeat;
+    color: #fff; /* Set text color to be visible against the background */
+    padding: 80px 20px; /* Adjust padding as needed */
+    text-align: center;
+    margin: 20px;
+}
+
+.con_container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.con_container h2 {
+    font-size: 3em; /* Increase size of heading */
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.con_container h2:hover {
+    color: #0056b3;
+}
+
+form {
+    width: 100%; /* Full width on smaller screens */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for better readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #002a61;
+}
